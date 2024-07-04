@@ -1,12 +1,7 @@
 return {
   {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin",
-    },
-  },
-  {
     "folke/tokyonight.nvim",
+    lazy = true,
     opts = {
       transparent = true,
       styles = {
@@ -28,6 +23,4 @@ return {
   { import = "lazyvim.plugins.extras.linting.eslint" },
   { import = "lazyvim.plugins.extras.formatting.prettier" },
   { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
-  -- Use mini.starter instead of alpha
-  { import = "lazyvim.plugins.extras.ui.mini-starter" },
 }
