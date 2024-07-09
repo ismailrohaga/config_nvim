@@ -13,7 +13,6 @@ return {
   {
     "preservim/nerdcommenter",
     config = function()
-      -- Optional: Custom configurations for nerdcommenter
       vim.g.NERDSpaceDelims = 1
     end,
   },

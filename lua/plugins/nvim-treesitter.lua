@@ -1,3 +1,8 @@
+-- disable this plugin
+if true then
+  return {}
+end
+
 return {
   -- Add more treesitter parsers
   {
