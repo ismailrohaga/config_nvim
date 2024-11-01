@@ -16,6 +16,16 @@ return {
       vim.g.NERDSpaceDelims = 1
     end,
   },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      inlay_hints = { enabled = false },
+    },
+  },
+  {
+    "mg979/vim-visual-multi",
+    branch = "master", -- this is equivalent to the branch option in vim-plug
+  },
   { import = "lazyvim.plugins.extras.lang.typescript" },
   { import = "lazyvim.plugins.extras.lang.json" },
   { import = "lazyvim.plugins.extras.lang.rust" },
