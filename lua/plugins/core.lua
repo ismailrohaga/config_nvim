@@ -1,16 +1,5 @@
 return {
   {
-    "folke/tokyonight.nvim",
-    lazy = true,
-    opts = {
-      transparent = true,
-      styles = {
-        sidebars = "transparent",
-        floats = "transparent",
-      },
-    },
-  },
-  {
     "preservim/nerdcommenter",
     config = function()
       vim.g.NERDSpaceDelims = 1
