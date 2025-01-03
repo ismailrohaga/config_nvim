@@ -3,6 +3,7 @@
 -- Add any additional options here
 vim.g.mapleader = " "
 vim.g.lazyvim_prettier_needs_config = false
+vim.g.snacks_animate = false
 
 vim.scriptencoding = "utf-8"
 
@@ -22,7 +23,7 @@ vim.opt.smarttab = true
 vim.opt.breakindent = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
-vim.opt.wrap = true
+vim.opt.wrap = false
 vim.opt.backspace = { "start", "eol", "indent" }
 vim.opt.wildignore:append({ "/node_modules/" })
 vim.opt.splitbelow = true
