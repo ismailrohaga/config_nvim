@@ -10,6 +10,7 @@ return {
     opts = {
       inlay_hints = { enabled = false }, -- Global inlay hints setting
       servers = {
+        clangd = {},
         --  bashls specific configuration
         bashls = {
           handlers = {
