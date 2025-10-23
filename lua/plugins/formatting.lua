@@ -22,7 +22,7 @@ return {
         vue = { "prettier" },
         handlebars = { "prettier" },
         ["markdown.mdx"] = { "prettier" },
-        cpp = { "clang_format" }, -- Use clang-format for C++
+        cpp = { "clang_format" },   -- Use clang-format for C++
         cmake = { "cmake_format" }, -- Use cmake-format for CMake
       }
 
@@ -40,10 +40,6 @@ return {
   -- Disable null-ls forks to avoid conflicts
   {
     "nvimtools/none-ls.nvim",
-    enabled = false,
-  },
-  {
-    "jose-elias-alvarez/null-ls.nvim",
     enabled = false,
   },
 }
